@@ -1,0 +1,122 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+.app{
+    width: inherit;
+    height: inherit;
+    font-family: 'Noto Sans KR';
+}
+
+.frame{
+    min-height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    background-color: #EEEEEE;
+}
+
+.footer{
+    height: 50px;
+    margin: auto 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    width: inherit;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232F32;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content{
+    height: auto;
+    min-width: 1280px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.segment1{
+    margin: 30px 0 0px 0;
+}
+
+.segment2{
+    margin: 30px 0 30px 0;
+}
+
+.segFrame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.segRow{
+    display: flex;
+}
+
+.segBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 450px;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 0 17px 40px 17px;
+}
+
+.segHeader{
+    width: 90%;
+    font-size: 18px;
+    padding: 15px 0 10px 15px;
+    border-bottom: 1px solid #EEEEEE;
+    font-weight: bolder;
+}
+
+.map{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px 0 5px;
+}
+
+.name{
+    margin: 0 5px 0 2.5px;
+    white-space: nowrap;
+}
+
+.url{
+    margin: 0 5px 0 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
