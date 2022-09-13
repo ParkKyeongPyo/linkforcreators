@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/linkforcreators/static/css/main.3991607c.css",
+    "main.js": "/linkforcreators/static/js/main.cb7062ae.js",
+    "index.html": "/linkforcreators/index.html",
+    "main.3991607c.css.map": "/linkforcreators/static/css/main.3991607c.css.map",
+    "main.cb7062ae.js.map": "/linkforcreators/static/js/main.cb7062ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3991607c.css",
+    "static/js/main.cb7062ae.js"
+  ]
+}
