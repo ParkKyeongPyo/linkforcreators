@@ -314,7 +314,7 @@ const freeImageeng = [
     img: "img/pixabay.png",
   },
   {
-    url: "https://www.pexels.com/ko-kr/",
+    url: "https://www.pexels.com/",
     name: "pexels",
     img: "img/pexels.png",
   },
@@ -415,7 +415,7 @@ const freeVideoeng = [
     img: "img/pixabay.png",
   },
   {
-    url: "https://www.pexels.com/ko-kr/",
+    url: "https://www.pexels.com/",
     name: "pexels",
     img: "img/pexels.png",
   },
@@ -459,6 +459,49 @@ const keywordAnalyze = [
   },
 ];
 
+const keywordAnalyzeeng = [
+  {
+    url: "https://ads.google.com/intl/ko_kr/getstarted/?subid=kr-ko-ha-aw-bk-a-m00!o3~Cj0KCQjw39uYBhCLARIsAD_SzMT3Swwhdhjb6VKsJYPJQC9Ims2wM_zm3OcrGicbmqLQNrCwYn23fF4aArLREALw_wcB~81876026093~kwd-324689985256~7918679677~434634269425&gclid=Cj0KCQjw39uYBhCLARIsAD_SzMT3Swwhdhjb6VKsJYPJQC9Ims2wM_zm3OcrGicbmqLQNrCwYn23fF4aArLREALw_wcB&gclsrc=aw.ds",
+    name: "Google keyword planner",
+    img: "img/google.png",
+  },
+  {
+    url: "https://trends.google.co.kr/trends/?geo=KR",
+    name: "Google trend",
+    img: "img/google.png",
+  },
+  {
+    url: "https://kwfinder.com/",
+    name: "KWFinder",
+    img: "img/kwfinder.jpeg",
+  },
+  {
+    url: "https://sitechecker.pro/rank-checker/",
+    name: "Sitechecker",
+    img: "img/sitechecker.png",
+  },
+  {
+    url: "https://seranking.com/",
+    name: "SE Ranking",
+    img: "img/seranking.webp",
+  },
+  {
+    url: "https://serpstat.com/",
+    name: "SERPSTAT",
+    img: "img/serpstat.png",
+  },
+  {
+    url: "https://www.seobility.net/en/",
+    name: "seobility",
+    img: "img/seobility.webp",
+  },
+  {
+    url: "https://serpwatcher.com/",
+    name: "SERPWatcher",
+    img: "img/serpwatcher.png",
+  },
+];
+
 const website = [
   {
     url: "https://ko.wix.com/",
@@ -492,6 +535,59 @@ const website = [
   },
 ];
 
+const websiteeng = [
+  {
+    url: "https://ko.wix.com/",
+    name: "wix",
+    img: "img/wix.png",
+  },
+  {
+    url: "https://wordpress.com/",
+    name: "wordpress",
+    img: "img/wordpress.png",
+  },
+  {
+    url: "https://www.creatorlink.net/en",
+    name: "creatorlink",
+    img: "img/creatorlink.jpg",
+  },
+  {
+    url: "https://www.hubspot.com/",
+    name: "hubspot",
+    img: "img/hubspot.jpg",
+  },
+  {
+    url: "https://www.weebly.com/?lang=en",
+    name: "Weebly",
+    img: "img/weebly.jpg",
+  },
+  {
+    url: "https://elementor.com/",
+    name: "elementor",
+    img: "img/elementor.webp",
+  },
+  {
+    url: "https://us.webnode.com/",
+    name: "webnode",
+    img: "img/webnode.jpeg",
+  },
+  {
+    url: "https://www.jimdo.com/",
+    name: "JIMDO",
+    img: "img/jimdo.webp",
+  },
+  {
+    url: "https://www.mozello.com/",
+    name: "mozello",
+    img: "img/mozello.svg",
+  },
+  {
+    url: "https://www.webstarts.com/",
+    name: "webstarts",
+    img: "img/webstarts.png",
+  },
+];
+
 const landing = [
   {
     url: "https://litt.ly/",
@@ -501,7 +597,7 @@ const landing = [
   {
     url: "https://unttd.cc/",
     name: "언티티디",
-    img: "img/logo192.png",
+    img: "img/unttd.png",
   },
   {
     url: "https://linktr.ee/",
@@ -516,7 +612,7 @@ const landing = [
   {
     url: "https://make.link/",
     name: "메이크링크",
-    img: "img/logo192.png",
+    img: "img/makelink.png",
   },
   {
     url: "https://prfl.link/",
@@ -536,7 +632,40 @@ const landing = [
   {
     url: "https://firelink.id/",
     name: "파이어링크",
-    img: "img/logo192.png",
+    img: "img/firelink.png",
+  },
+];
+
+const landingeng = [
+  {
+    url: "https://linktr.ee/",
+    name: "Linktree",
+    img: "img/linktree.png",
+  },
+  {
+    url: "https://link.inpock.co.kr/en",
+    name: "InpockLink",
+    img: "img/inpocklink.png",
+  },
+  {
+    url: "https://instabio.cc/eng",
+    name: "Insta Bio",
+    img: "img/instabio.png",
+  },
+  {
+    url: "https://firelink.id/",
+    name: "Firelink",
+    img: "img/firelink.png",
+  },
+  {
+    url: "https://unttd.cc/",
+    name: "unttd",
+    img: "img/unttd.png",
+  },
+  {
+    url: "https://linkon.id/",
+    name: "Linkon",
+    img: "img/linkon.png",
   },
 ];
 
@@ -563,6 +692,19 @@ const siteRegister = [
   },
 ];
 
+const siteRegistereng = [
+  {
+    url: "https://search.google.com/",
+    name: "Google search console",
+    img: "img/google.png",
+  },
+  {
+    url: "https://www.bing.com/webmasters/about",
+    name: "Bing Webmaster Tools",
+    img: "img/bing.png",
+  },
+];
+
 const etc = [
   {
     url: "https://www.patent.go.kr/smart/portal/Main.do",
@@ -574,6 +716,10 @@ const etc = [
     name: "사업자 등록증 발급",
     img: "img/korea.png",
   },
+];
+
+const etceng = [
+
 ];
 
 function App() {
@@ -991,7 +1137,7 @@ function App() {
                   <div className={app.segRow}>
                     <div className={app.segBox}>
                       <div className={app.segHeader}>Keyword analyzer</div>
-                      {keywordAnalyze.map((item) => (
+                      {keywordAnalyzeeng.map((item) => (
                         <div className={app.map}>
                           <img className={app.img} src={item.img} />
                           <div className={app.name}>{item.name}</div>
@@ -1016,7 +1162,7 @@ function App() {
                   <div className={app.segRow}>
                     <div className={app.segBox}>
                       <div className={app.segHeader}>Free website Creation</div>
-                      {website.map((item) => (
+                      {websiteeng.map((item) => (
                         <div className={app.map}>
                           <img className={app.img} src={item.img} />
                           <div className={app.name}>{item.name}</div>
@@ -1034,7 +1180,7 @@ function App() {
                       <div className={app.segHeader}>
                         Free all-in-one profile link website
                       </div>
-                      {landing.map((item) => (
+                      {landingeng.map((item) => (
                         <div className={app.map}>
                           <img className={app.img} src={item.img} />
                           <div className={app.name}>{item.name}</div>
@@ -1058,7 +1204,7 @@ function App() {
                       <div className={app.segHeader}>
                         Website register in Search engine
                       </div>
-                      {siteRegister.map((item) => (
+                      {siteRegistereng.map((item) => (
                         <div className={app.map}>
                           <img className={app.img} src={item.img} />
                           <div className={app.name}>{item.name}</div>
@@ -1080,7 +1226,7 @@ function App() {
                   <div className={app.segRow}>
                     <div className={app.segBox}>
                       <div className={app.segHeader}>etc</div>
-                      {etc.map((item) => (
+                      {etceng.map((item) => (
                         <div className={app.map}>
                           <img className={app.img} src={item.img} />
                           <div className={app.name}>{item.name}</div>

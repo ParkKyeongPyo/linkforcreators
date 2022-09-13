@@ -46,14 +46,36 @@
     font-weight: 600;
 }
 
-.content{
-    height: auto;
-    min-width: 1280px;
-    margin: 0 auto 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media(min-width: 1280px){
+    .content{
+        height: auto;
+        min-width: 1280px;
+        margin: 0 auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .segRow{
+        display: flex;
+    }
+}
+
+@media(max-width: 1280px){
+    .content{
+        height: auto;
+        margin: 0 auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .segRow{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .segment1{
@@ -70,9 +92,6 @@
     align-items: center;
 }
 
-.segRow{
-    display: flex;
-}
 
 .segBox{
     display: flex;
