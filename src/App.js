@@ -671,7 +671,7 @@ const landingeng = [
 
 const siteRegister = [
   {
-    url: "https://search.google.com/",
+    url: "https://search.google.com/search-console",
     name: "구글 서치 콘솔",
     img: "img/google.png",
   },
@@ -694,7 +694,7 @@ const siteRegister = [
 
 const siteRegistereng = [
   {
-    url: "https://search.google.com/",
+    url: "https://search.google.com/search-console",
     name: "Google search console",
     img: "img/google.png",
   },
@@ -730,7 +730,7 @@ function App() {
   return (
     <div className={app.app}>
       <div className={app.header}>
-        <div>Link for all Creators</div>
+        <div>Links for all Creator</div>
       </div>
       <div className={app.frame}>
         <div className={app.content}>
@@ -774,6 +774,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -790,6 +791,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -813,6 +815,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -829,6 +832,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -855,6 +859,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -871,6 +876,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -893,6 +899,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -919,6 +926,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -937,6 +945,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -961,6 +970,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -983,6 +993,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -1027,6 +1038,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -1043,6 +1055,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -1066,6 +1079,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -1082,6 +1096,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -1107,6 +1122,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -1123,6 +1139,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -1145,6 +1162,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -1170,6 +1188,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -1188,6 +1207,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -1212,6 +1232,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
@@ -1234,6 +1255,7 @@ function App() {
                             className={app.url}
                             href={item.url}
                             target="_blank"
+                            rel="noreferrer"
                           >
                             {item.url}
                           </a>
